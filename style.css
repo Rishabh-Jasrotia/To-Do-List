@@ -1,0 +1,150 @@
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.btn-x .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
+}
+.btn-up .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.btn-dwn .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+h2
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #90cbff;
+    width: fit-content;
+}
+#input-sec
+{
+    width: 475px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+#input-sec input
+{
+    font-family: 'Lato', sans-serif;
+    width: 75%;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid #90cbff;
+}
+#input-sec input:focus
+{
+    outline-color: #3a5369;
+    outline-width: 3px;
+    border: none;
+}
+#input-sec button
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #3a5369;
+    font-size: 16px;
+    height: 55px;
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #c6e1f8;
+}
+#input-sec button:active
+{
+    background-color: white;
+}
+#td-list
+{
+    padding: 10px;
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.td-li
+{
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    height: 45px;
+    width: 95%;
+    background-color: #3a5369;
+}
+.td-btn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 110px;
+    border-radius: 10px;
+}
+.td-btn button
+{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn-x
+{
+    background-color: #f27272;
+}
+.btn-up
+{
+    background-color: #7cff7c;
+}
+.btn-dwn
+{
+    background-color: #f9f953;
+}
+.td-text
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: calc(100% - (125px));
+}
